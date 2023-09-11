@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^10.1.0"
+  },
+  "description": "Guía del backend \r npm init -Y \r npm install firebase express \r node . \\index.js \r put \"type\": \"module\" in package.json \r Add code for use express \r Read all student exposing a route \r Read students\r create student code \r update student code \r Belete student code"
+}
