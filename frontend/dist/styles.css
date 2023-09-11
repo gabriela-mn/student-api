@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+form label,
+form input,
+form button {
+    margin: 5px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:focus {
+    outline: none;
+}
+
+.alert {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    background-color: red; /* Establecer el color de fondo del botón a rojo */
+    color: white; /* Establecer el color del texto del botón a blanco */
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 10px; /* Establecer el espacio (margen) entre los botones */
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .update-button {
+    background-color: blue;
+    color: white;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  /* Estilos para el título */
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
