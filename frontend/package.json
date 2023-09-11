@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "name": "frontend",
+  "description": "npm init -y\r npm install axios\r https://axios-http.com/docs/example \r npm install webpack webpack-cli --save-dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js"
+}
