@@ -1,24 +1,67 @@
+/* Establecer un estilo base */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el formulario */
 form {
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 form label,
-form input,
-form button {
-    margin: 5px 0;
+form input {
+    margin: 10px 0;
 }
 
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para los botones */
+button {
+    cursor: pointer;
+    background-color: #34db42; /* Color azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Color azul más oscuro al pasar el cursor */
+}
+
+/* Estilo para la tabla */
 table {
-    border-collapse: collapse;
     width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
 }
 
 table, th, td {
@@ -26,7 +69,7 @@ table, th, td {
 }
 
 th, td {
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
@@ -34,47 +77,19 @@ th {
     background-color: #f2f2f2;
 }
 
-button {
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 4px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-button:active {
-    background-color: #3e8e41;
-}
-
-button:focus {
-    outline: none;
-}
-
-.alert {
-    color: red;
-    margin-bottom: 10px;
-}
-
-.delete-button {
-    background-color: red; /* Establecer el color de fondo del botón a rojo */
-    color: white; /* Establecer el color del texto del botón a blanco */
-  }
-
-  .action-buttons {
+/* Estilo para los botones de acción */
+.action-buttons {
     display: flex;
-    gap: 10px; /* Establecer el espacio (margen) entre los botones */
-  }
-  
-  .delete-button {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.action-buttons button {
+    width: 48%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.delete-button {
     background-color: red;
     color: white;
   }
@@ -83,19 +98,31 @@ button:focus {
     background-color: blue;
     color: white;
   }
+/* Estilo para mensajes de alerta */
+.alert {
+    color: red;
+    margin-top: 10px;
+}
 
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-  }
-
-  /* Estilos para el título */
-  h1 {
+/* Estilo para el título */
+h1 {
     font-family: "Arial", sans-serif;
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
-  }
+}
+/* Estilo para el banner */
+.banner {
+    background-color: #2980b9; /* Color de fondo del banner (puedes cambiarlo) */
+    color: white; /* Color del texto del banner */
+    text-align: center;
+    padding: 20px 0; /* Espaciado interno del banner */
+    margin-bottom: 20px; /* Espacio inferior entre el banner y el contenido */
+}
+
+/* Estilo para el título en el banner */
+.banner h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    margin: 0; /* Eliminar el margen superior e inferior del título */
+}
